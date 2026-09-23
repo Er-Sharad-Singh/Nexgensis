@@ -1,0 +1,55 @@
+
+:root {
+  /* Primary */
+  --color-primary: #f98716;
+  --color-primary-hover: #ea580c;
+  --color-primary-light: #fff7ed;
+
+  /* Background */
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  /* Text */
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+
+  /* Border */
+  --color-border: #e5e7eb;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-success-light: #f0fdf4;
+
+  --color-danger: #dc2626;
+  --color-danger-light: #fef2f2;
+
+  --color-warning: #d97706;
+  --color-warning-light: #fffbeb;
+
+  /* Radius */
+  --radius-card: 12px;
+  --radius-button: 8px;
+
+  /* Shadow */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
